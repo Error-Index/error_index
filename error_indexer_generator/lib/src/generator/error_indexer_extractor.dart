@@ -57,8 +57,8 @@ class ErrorIndexerGenerator extends Generator {
 }
 
 Builder errorIndexerExtractor(BuilderOptions options) => LibraryBuilder(
-  ErrorIndexerGenerator(),
-  generatedExtension: '.error_index.json',
-  header: '',
-  formatOutput: (generated, _) => generated,
-);
+      ErrorIndexerGenerator(),
+      generatedExtension: '.error_index.json',
+      header: '',
+      formatOutput: (generated) => generated,
+    );

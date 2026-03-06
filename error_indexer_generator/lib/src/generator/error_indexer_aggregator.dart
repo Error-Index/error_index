@@ -12,9 +12,9 @@ const _initChecker = TypeChecker.fromUrl(
 class ErrorIndexerAggregator extends Builder {
   @override
   Map<String, List<String>> get buildExtensions => {
-    // Output a .error.dart file next to the annotated file
-    '.dart': ['.error.dart'],
-  };
+        // Output a .error.dart file next to the annotated file
+        '.dart': ['.error.dart'],
+      };
 
   @override
   Future<void> build(BuildStep buildStep) async {
