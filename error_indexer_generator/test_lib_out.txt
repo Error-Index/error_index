@@ -1,0 +1,7 @@
+Analyzing test_library.dart...
+
+  error - test_library.dart:1:64 - The type of the first positional parameter of the 'main' function must be a supertype of 'List<String>'. Try changing the type of the parameter. - main_first_positional_parameter_type
+  error - test_library.dart:1:94 - The getter 'topLevelElements' isn't defined for the type 'LibraryElement'. Try importing the library that defines 'topLevelElements', correcting the name to the name of an existing getter, or defining a getter or field named 'topLevelElements'. - undefined_getter
+warning - test_library.dart:1:88 - The value of the local variable 'x' isn't used. Try removing the variable or using it. - unused_local_variable
+
+3 issues found.

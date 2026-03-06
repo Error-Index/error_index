@@ -1,0 +1,14 @@
+Analyzing error_indexer_generator...
+
+  error - lib\src\generator\error_indexer_extractor.dart:8:8 - Target of URI doesn't exist: 'package:error_indexer/error_indexer.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\src\generator\error_indexer_extractor.dart:12:28 - The type 'Metadata' used in the 'for' loop must implement 'Iterable'. - for_in_of_invalid_type
+  error - lib\src\generator\error_indexer_extractor.dart:26:28 - The type 'Metadata' used in the 'for' loop must implement 'Iterable'. - for_in_of_invalid_type
+warning - lib\src\generator\error_indexer_extractor.dart:6:8 - Unused import: 'package:analyzer/dart/constant/value.dart'. Try removing the import directive. - unused_import
+warning - test\error_indexer_generator_test.dart:3:8 - Unused import: 'package:error_indexer_generator/error_indexer_generator.dart'. Try removing the import directive. - unused_import
+   info - lib\error_indexer_generator.dart:1:9 - Library names are not necessary. Remove the library name. - unnecessary_library_name
+   info - lib\src\generator\error_indexer_aggregator.dart:4:8 - The imported package 'glob' isn't a dependency of the importing package. Try adding a dependency for 'glob' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\src\generator\error_indexer_extractor.dart:5:8 - The imported package 'analyzer' isn't a dependency of the importing package. Try adding a dependency for 'analyzer' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\src\generator\error_indexer_extractor.dart:6:8 - The imported package 'analyzer' isn't a dependency of the importing package. Try adding a dependency for 'analyzer' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\src\generator\error_indexer_extractor.dart:8:8 - The imported package 'error_indexer' isn't a dependency of the importing package. Try adding a dependency for 'error_indexer' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+
+10 issues found.

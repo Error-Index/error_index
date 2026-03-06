@@ -1,0 +1,8 @@
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs; error_indexer_generator|lib/error_indexer_generator.dart
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs: 1 skipped; error_indexer_generator|lib/src/generator/error_indexer_aggregator.dart
+  1s error_indexer_generator:error_indexer_extractor on 7 inputs: 6 skipped, 1 output
+  0s error_indexer_generator:error_indexer_aggregator on 1 input; lib/$lib$
+E error_indexer_generator:error_indexer_aggregator on lib/$lib$:
+  Duplicate Full Error Code found: "PAY_REPO-PROCESS_PAY" in class PaymentRepository method processPaymentAlternative. Full code must be unique across the project.
+  0s error_indexer_generator:error_indexer_aggregator on 1 input: 1 no-op
+  Failed to build with build_runner/jit in 2s; wrote 1 output.

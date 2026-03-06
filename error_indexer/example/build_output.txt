@@ -1,0 +1,11 @@
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs; error_indexer_generator|lib/error_indexer_generator.dart
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs: 1 skipped; error_indexer_generator|lib/src/generator/error_indexer_aggregator.dart
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs: 7 skipped
+  0s error_indexer_generator:error_indexer_aggregator on 1 input; lib/$lib$
+  0s error_indexer_generator:error_indexer_aggregator on 1 input: 1 skipped
+E error_indexer_generator:error_indexer_aggregator on lib/$lib$:
+  FormatException: Unexpected character (at character 1)
+  // GENERATED CODE - DO NOT MODIFY BY HAND
+  ^
+  
+  Failed to build with build_runner/jit in 2s; wrote 0 outputs.

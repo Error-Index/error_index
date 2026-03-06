@@ -1,0 +1,9 @@
+Analyzing error_indexer_generator...
+
+  error - lib\src\generator\error_indexer_extractor.dart:10:30 - The type 'Metadata' used in the 'for' loop must implement 'Iterable'. - for_in_of_invalid_type
+  error - lib\src\generator\error_indexer_extractor.dart:24:30 - The type 'Metadata' used in the 'for' loop must implement 'Iterable'. - for_in_of_invalid_type
+warning - lib\src\generator\error_indexer_extractor.dart:6:8 - Unused import: 'package:error_indexer/error_indexer.dart'. Try removing the import directive. - unused_import
+warning - pubspec.yaml:18:5 - Publishable packages can't have 'path' dependencies. Try adding a 'publish_to: none' entry to mark the package as not for publishing or remove the path dependency. - invalid_dependency
+warning - test\error_indexer_generator_test.dart:3:8 - Unused import: 'package:error_indexer_generator/error_indexer_generator.dart'. Try removing the import directive. - unused_import
+
+5 issues found.

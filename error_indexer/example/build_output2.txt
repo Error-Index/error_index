@@ -1,0 +1,18 @@
+  1s compiling builders/jit
+  2s compiling builders/jit
+  3s compiling builders/jit
+  4s compiling builders/jit
+  5s compiling builders/jit
+  5s compiling builders/jit
+  0s error_indexer_generator:error_indexer_extractor on 7 inputs; error_indexer_generator|lib/error_indexer_generator.dart
+  9s error_indexer_generator:error_indexer_extractor on 7 inputs: 1 no-op; spent 7s┬áanalyzing, 2s┬áresolving; error_indexer_generator|lib/src/generator/error_indexer_aggregator.dart
+  18s error_indexer_generator:error_indexer_extractor on 7 inputs: 1 output, 4 no-op; spent 14s┬áanalyzing, 3s┬áresolving; lib/payment_repository.dart
+  19s error_indexer_generator:error_indexer_extractor on 7 inputs: 2 output, 5 no-op; spent 15s┬áanalyzing, 3s┬áresolving
+  0s error_indexer_generator:error_indexer_aggregator on 1 input; lib/$lib$
+E error_indexer_generator:error_indexer_aggregator on lib/$lib$:
+  FormatException: Unexpected character (at line 2, character 1)
+  // **************************************************************************
+  ^
+  
+  0s error_indexer_generator:error_indexer_aggregator on 1 input: 1 no-op
+  Failed to build with build_runner/jit in 26s; wrote 2 outputs.

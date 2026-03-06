@@ -1,0 +1,25 @@
+  0s compiling builders/jit
+  1s compiling builders/jit
+  2s compiling builders/jit
+  4s compiling builders/jit
+  5s compiling builders/jit
+  6s compiling builders/jit
+  7s compiling builders/jit
+  8s compiling builders/jit
+  9s compiling builders/jit
+  10s compiling builders/jit
+  11s compiling builders/jit
+  12s compiling builders/jit
+  13s compiling builders/jit
+  14s compiling builders/jit
+  15s compiling builders/jit
+  16s compiling builders/jit
+  17s compiling builders/jit
+  0s error_indexer_generator:error_indexer_extractor on 8 inputs; error_indexer_generator|lib/error_indexer_generator.dart
+  20s error_indexer_generator:error_indexer_extractor on 8 inputs: 1 no-op; spent 15s┬áanalyzing, 4s┬áresolving; error_indexer_generator|lib/src/generator/error_indexer_aggregator.dart
+  36s error_indexer_generator:error_indexer_extractor on 8 inputs: 1 output, 4 no-op; spent 27s┬áanalyzing, 7s┬áresolving, 1s┬áreading; lib/payment_repository.dart
+  38s error_indexer_generator:error_indexer_extractor on 8 inputs: 2 output, 6 no-op; spent 29s┬áanalyzing, 8s┬áresolving, 1s┬áreading
+  0s error_indexer_generator:error_indexer_aggregator on 5 inputs; lib/auth_repository.dart
+  0s error_indexer_generator:error_indexer_aggregator on 5 inputs: 1 no-op; lib/main.dart
+  0s error_indexer_generator:error_indexer_aggregator on 5 inputs: 1 output, 4 no-op
+  Built with build_runner/jit in 58s; wrote 3 outputs.

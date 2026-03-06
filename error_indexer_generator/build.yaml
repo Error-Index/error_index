@@ -1,0 +1,22 @@
+targets:
+  $default:
+    builders:
+      error_indexer_generator|error_indexer_extractor:
+        enabled: true
+      error_indexer_generator|error_indexer_aggregator:
+        enabled: true
+
+builders:
+  error_indexer_extractor:
+    import: "package:error_indexer_generator/error_indexer_generator.dart"
+    builder_factories: ["errorIndexerExtractorBuilder"]
+    build_extensions: {".dart": [".error_index.json"]}
+    auto_apply: dependents
+    build_to: cache
+
+  error_indexer_aggregator:
+    import: "package:error_indexer_generator/error_indexer_generator.dart"
+    builder_factories: ["errorIndexerAggregatorBuilder"]
+    build_extensions: {".dart": [".error.dart"]}
+    auto_apply: dependents
+    build_to: source
