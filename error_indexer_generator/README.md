@@ -42,7 +42,7 @@ Check out the full documentation, architecture breakdown, and usage examples on 
 ## 🤝 Contributing
 Feel free to open an Issue or submit a Pull Request on our [GitHub Repository](https://github.com/Error-Index/error_index) if you find bugs or have feature improvement ideas!
 
-## ✨ Contributors
+## ✨ Main Contributors
 Thank you to all the people who have contributed to this project:
 
 | ![divloopz](https://avatars.githubusercontent.com/u/244216080?v=4&s=200) | ![Ahmed Al-Kamel](https://avatars.githubusercontent.com/u/109754192?v=4&s=200) | ![Albukheiti](https://avatars.githubusercontent.com/u/101047629?v=4&s=200) | 
