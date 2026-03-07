@@ -60,5 +60,5 @@ Builder errorIndexerExtractor(BuilderOptions options) => LibraryBuilder(
       ErrorIndexerGenerator(),
       generatedExtension: '.error_index.json',
       header: '',
-      formatOutput: (generated) => generated,
+      formatOutput: (generated, version) => generated,
     );
