@@ -1,4 +1,4 @@
-## 1.0.4
+## 1.0.5
 - Added `separator` property to `@ErrorIndexInit` to customize the connection symbol between scope and point.
 - Added generated source code file paths as comments on generated indexer classes.
 - Added full computed error code as comments above static metadata properties.

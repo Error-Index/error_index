@@ -1,4 +1,4 @@
-## 1.0.4
+## 1.0.5
 - Added support for generating custom separators defined in `@ErrorIndexInit`.
 - Inject original `filePath` as comment in generation to track source file properly.
 - Inject `fullErrorCode` as comment above generated variables.

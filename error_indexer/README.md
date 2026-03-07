@@ -31,11 +31,11 @@ Add both the runtime package and the code generator to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  error_indexer: ^1.0.4
+  error_indexer: ^1.0.5
 
 dev_dependencies:
   build_runner: ^2.4.0
-  error_indexer_generator: ^1.0.4
+  error_indexer_generator: ^1.0.5
 ```
 
 *(Note: Always check for the latest versions on Pub)*
