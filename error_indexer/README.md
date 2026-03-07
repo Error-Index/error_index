@@ -181,6 +181,6 @@ Feel free to open an Issue or submit a Pull Request on our [GitHub Repository](h
 
 ## ✨ Contributors
 Thank you to all the people who have contributed to this project:
-- [divloopz](mailto:divloopz@gmail.com)
-- [Ahmed Al-Kamel](mailto:ahmedalkamel.it@gmail.com)
-- [Albukheiti](mailto:albukheiti@gmail.com)
+* [![divloopz](https://avatars.githubusercontent.com/u/244216080?s=40&v=4)](https://github.com/divloopz) **[divloopz](https://github.com/divloopz)** — Core Developer
+* [![Ahmed Al-Kamel](https://avatars.githubusercontent.com/u/109754192?s=40&v=4)](https://github.com/Ahmed-Alkamel) **[Ahmed Al-Kamel](https://github.com/Ahmed-Alkamel)** — Mobile App Developer & Contributor
+* [![Albukheiti](https://avatars.githubusercontent.com/u/101047629?s=40&v=4)](https://github.com/albukheity) **[Albukheiti](https://github.com/albukheity)** — Contributor
