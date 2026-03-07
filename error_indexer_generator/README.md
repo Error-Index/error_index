@@ -24,11 +24,11 @@ Add both the builder and the runtime package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  error_indexer: ^1.0.1
+  error_indexer: ^1.0.4
 
 dev_dependencies:
   build_runner: ^2.4.0
-  error_indexer_generator: ^1.0.1
+  error_indexer_generator: ^1.0.4
 ```
 
 *(Note: Always check for the latest versions on Pub)*

@@ -45,6 +45,7 @@ class ErrorIndexerGenerator extends Generator {
           'pointCode': pointCode,
           'className': classElement.name,
           'methodName': method.name,
+          'filePath': buildStep.inputId.path,
         });
       }
     }

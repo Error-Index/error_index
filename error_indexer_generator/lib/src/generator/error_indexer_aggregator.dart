@@ -26,6 +26,7 @@ class ErrorIndexerAggregator extends Builder {
     // Check top-level elements and classes for @ErrorIndexInit
     bool hasInitAnnotation = false;
     String classSuffix = 'ErrorIndex'; // Default suffix
+    String separator = '-'; // Default separator
 
     final libraryReader = LibraryReader(library);
     for (var element in libraryReader.allElements) {
@@ -38,6 +39,10 @@ class ErrorIndexerAggregator extends Builder {
           final suffixValue = reader.read('classSuffix');
           if (!suffixValue.isNull) {
             classSuffix = suffixValue.stringValue;
+          }
+          final separatorValue = reader.read('separator');
+          if (!separatorValue.isNull) {
+            separator = separatorValue.stringValue;
           }
         }
         break;
@@ -69,7 +74,7 @@ class ErrorIndexerAggregator extends Builder {
         final mapItem = item as Map<String, dynamic>;
         final scopeCode = mapItem['scopeCode'] as String;
         final pointCode = mapItem['pointCode'] as String;
-        final fullCode = '$scopeCode-$pointCode';
+        final fullCode = '$scopeCode$separator$pointCode';
 
         // STRICT Validation: duplicate check
         if (knownCodes.contains(fullCode)) {
@@ -112,19 +117,29 @@ class ErrorIndexerAggregator extends Builder {
 
       final generatedClassName = '$className$classSuffix';
 
+      final filePath = classItems.isNotEmpty
+          ? classItems.first['filePath'] as String? ?? 'Unknown source'
+          : 'Unknown source';
+
+      buffer.writeln('/// Error index for `$className`.');
+      buffer.writeln('/// Generated from: `$filePath`');
       buffer.writeln('abstract class $generatedClassName {');
       buffer.writeln('  $generatedClassName._();');
+      buffer.writeln();
 
       for (var item in classItems) {
         final methodName = item['methodName'] as String;
         final scopeCode = item['scopeCode'] as String;
         final pointCode = item['pointCode'] as String;
+        final fullCode = '$scopeCode$separator$pointCode';
 
+        buffer.writeln('  /// Error Code: `$fullCode`');
         buffer.writeln('  static const $methodName = ErrorMetadata(');
         buffer.writeln("    scopeCode: '$scopeCode',");
         buffer.writeln("    pointCode: '$pointCode',");
         buffer.writeln("    className: '$className',");
         buffer.writeln("    methodName: '$methodName',");
+        buffer.writeln("    separator: '$separator',");
         buffer.writeln('  );');
         buffer.writeln();
       }

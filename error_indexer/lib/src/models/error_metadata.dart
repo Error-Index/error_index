@@ -12,15 +12,19 @@ class ErrorMetadata {
   /// The method name where the error point is defined.
   final String methodName;
 
+  /// The separator between the scope and the point code.
+  final String separator;
+
   const ErrorMetadata({
     required this.scopeCode,
     required this.pointCode,
     required this.className,
     required this.methodName,
+    this.separator = '-',
   });
 
   /// The computed full error code (combining scope and point).
-  String get fullErrorCode => '$scopeCode-$pointCode';
+  String get fullErrorCode => '$scopeCode$separator$pointCode';
 
   @override
   String toString() => fullErrorCode;

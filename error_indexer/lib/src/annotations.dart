@@ -22,5 +22,11 @@ class ErrorIndexInit {
   /// the generated class will be `AuthRepositoryErrorIndex`.
   final String classSuffix;
 
-  const ErrorIndexInit({this.classSuffix = 'ErrorIndex'});
+  /// The separator string used between scope and point code.
+  final String separator;
+
+  const ErrorIndexInit({
+    this.classSuffix = 'ErrorIndex',
+    this.separator = '-',
+  });
 }
