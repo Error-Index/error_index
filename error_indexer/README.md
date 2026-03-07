@@ -178,3 +178,9 @@ The `error_indexer_generator` compiler will detect the `USER-INFO` hash collisio
 
 ## 🤝 Contributing & Found Issues
 Feel free to open an Issue or submit a Pull Request on our [GitHub Repository](https://github.com/Error-Index/error_index). All contributions are welcome!
+
+## ✨ Contributors
+Thank you to all the people who have contributed to this project:
+- [divloopz](mailto:divloopz@gmail.com)
+- [Ahmed Al-Kamel](mailto:ahmedalkamel.it@gmail.com)
+- [Albukheiti](mailto:albukheiti@gmail.com)

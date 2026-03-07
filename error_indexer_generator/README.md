@@ -41,3 +41,9 @@ Check out the full documentation, architecture breakdown, and usage examples on 
 
 ## 🤝 Contributing
 Feel free to open an Issue or submit a Pull Request on our [GitHub Repository](https://github.com/Error-Index/error_index) if you find bugs or have feature improvement ideas!
+
+## ✨ Contributors
+Thank you to all the people who have contributed to this project:
+- [divloopz](mailto:divloopz@gmail.com)
+- [Ahmed Al-Kamel](mailto:ahmedalkamel.it@gmail.com)
+- [Albukheiti](mailto:albukheiti@gmail.com)
