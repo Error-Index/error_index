@@ -44,6 +44,8 @@ Feel free to open an Issue or submit a Pull Request on our [GitHub Repository](h
 
 ## ✨ Contributors
 Thank you to all the people who have contributed to this project:
-* [![divloopz](https://avatars.githubusercontent.com/u/244216080?s=40&v=4)](https://github.com/divloopz) **[divloopz](https://github.com/divloopz)** — Core Developer
-* [![Ahmed Al-Kamel](https://avatars.githubusercontent.com/u/109754192?s=40&v=4)](https://github.com/Ahmed-Alkamel) **[Ahmed Al-Kamel](https://github.com/Ahmed-Alkamel)**
-* [![Albukheiti](https://avatars.githubusercontent.com/u/101047629?s=40&v=4)](https://github.com/albukheity) **[Albukheiti](https://github.com/albukheity)** 
+
+| ![divloopz](https://avatars.githubusercontent.com/u/244216080?v=4&s=200) | ![Ahmed Al-Kamel](https://avatars.githubusercontent.com/u/109754192?v=4&s=200) | ![Albukheiti](https://avatars.githubusercontent.com/u/101047629?v=4&s=200) | 
+|:------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
+|                 [divloopz](https://github.com/divloopz)                  |               [Ahmed Al-Kamel](https://github.com/Ahmed-Alkamel)               |                [Albukheiti](https://github.com/albukheity)                 |
+
