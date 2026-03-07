@@ -1,12 +1,12 @@
 name: error_indexer
 description: "A runtime annotation and metadata package for building centralized, namespaced error registries in Dart and Flutter projects."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Error-Index/error_index
 repository: https://github.com/Error-Index/error_index.git
 issue_tracker: https://github.com/Error-Index/error_index/issues
 
 environment:
-  sdk: ^3.1.0
+  sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
   meta: ^1.11.0
